@@ -29,3 +29,4 @@ Route::resource('admin/replacement-class', 'App\\Http\\Controllers\\Admin\replac
 Route::resource('admin/room', 'App\Http\Controllers\Admin\roomController');
 Route::resource('admin/location', 'App\Http\Controllers\Admin\locationController');
 Route::resource('admin/lesson', 'App\Http\Controllers\Admin\lessonController');
+Route::resource('admin/missing-item-status', 'App\\Http\\Controllers\\Admin\missingItemStatusController');
