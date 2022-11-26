@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','User Role')
+@section('title','Category')
 
 @section('content')
     <div class="container">
@@ -8,9 +8,9 @@
 
             <div class="col-md-9">
                 <div class="card">
-                    <div class="card-header">Create New userRole</div>
+                    <div class="card-header">Create New lesson</div>
                     <div class="card-body">
-                        <a href="{{ url('/admin/user-role') }}" title="Back"><button class="btn btn-warning btn-sm"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
+                        <a href="{{ url('/admin/lesson') }}" title="Back"><button class="btn btn-warning btn-sm"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
                         <br />
                         <br />
 
@@ -22,10 +22,10 @@
                             </ul>
                         @endif
 
-                        <form method="POST" action="{{ url('/admin/user-role') }}" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
+                        <form method="POST" action="{{ url('/admin/lesson') }}" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
                             {{ csrf_field() }}
 
-                            @include ('admin.user-role.form', ['formMode' => 'create'])
+                            @include ('admin.lesson.form', ['formMode' => 'create'])
 
                         </form>
 
