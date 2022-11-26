@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
+@section('title','Category')
+
 @section('content')
     <div class="container">
         <div class="row">
-            @include('admin.sidebar')
 
             <div class="col-md-9">
                 <div class="card">
@@ -27,7 +28,7 @@
                                     <tr>
                                         <th>ID</th><td>{{ $missingitemstatus->id }}</td>
                                     </tr>
-                                    <tr><th> Name </th><td> {{ $missingitemstatus->name }} </td></tr>
+                                    <tr><th> Item Code </th><td> {{ $missingitemstatus->item_code }} </td></tr><tr><th> Title </th><td> {{ $missingitemstatus->title }} </td></tr><tr><th> Category Id </th><td> {{ $missingitemstatus->category_id }} </td></tr>
                                 </tbody>
                             </table>
                         </div>

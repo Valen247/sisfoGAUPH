@@ -21,3 +21,4 @@ Route::resource('admin/category', 'App\\Http\\Controllers\\Admin\categoryControl
 Route::resource('admin/user-role', 'App\\Http\\Controllers\\Admin\userRoleController');
 Route::resource('admin/reservation-status', 'App\\Http\\Controllers\\Admin\reservationStatusController');
 Route::resource('admin/missing-item-status', 'App\\Http\\Controllers\\Admin\missingItemStatusController');
+Route::resource('admin/missing-item-status', 'App\\Http\\Controllers\\Admin\missingItemStatusController');
