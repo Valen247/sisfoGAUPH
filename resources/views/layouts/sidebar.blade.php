@@ -18,6 +18,14 @@
           </a>
         </li>
         <li class="nav-item">
+          <a href='{{ asset("/admin/user") }}' class="nav-link">
+            <i class="nav-icon fas fa-file"></i>
+            <p>
+              User
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
           <a href='{{ asset("admin/user-role") }}' class="nav-link">
             <i class="nav-icon fas fa-user"></i>
             <p>
@@ -42,10 +50,26 @@
           </a>
         </li>
         <li class="nav-item">
+          <a href='{{ asset("admin/request-missing-item") }}' class="nav-link">
+            <i class="nav-icon fas fa-eye"></i>
+            <p>
+              Request Missing Item
+             </p>
+          </a>
+        </li>
+        <li class="nav-item">
           <a href='{{ asset("admin/attendance") }}' class="nav-link">
             <i class="nav-icon fas fa-star"></i>
             <p>
               Attendance
+             </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href='{{ asset("admin/student") }}' class="nav-link">
+            <i class="nav-icon fas fa-eye"></i>
+            <p>
+              Student
              </p>
           </a>
         </li>
@@ -97,4 +121,5 @@
              </p>
           </a>
         </li>
+      </li>
 </ul>

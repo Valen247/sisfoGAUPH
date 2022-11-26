@@ -30,3 +30,8 @@ Route::resource('admin/room', 'App\Http\Controllers\Admin\roomController');
 Route::resource('admin/location', 'App\Http\Controllers\Admin\locationController');
 Route::resource('admin/lesson', 'App\Http\Controllers\Admin\lessonController');
 Route::resource('admin/missing-item-status', 'App\\Http\\Controllers\\Admin\missingItemStatusController');
+Route::resource('admin/user', 'App\Http\Controllers\Admin\UserController');
+Route::resource('admin/request-missing-item', 'App\Http\Controllers\Admin\requestMissingItemController');
+Route::resource('admin/request-missing-item', 'App\Http\Controllers\Admin\requestMissingItemController');
+Route::resource('admin/student', 'App\Http\Controllers\Admin\studentController');
+Route::resource('admin/missing-item-status', 'App\\Http\\Controllers\\Admin\missingItemStatusController');
